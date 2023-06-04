@@ -7,3 +7,7 @@ homepage:
   enabled: false
 include_subgraph_errors:
   all: true
+cors:
+  origins:
+    - https://flyby-client-production.up.railway.app
+    - https://studio.apollographql.com # Allows Apollo Studio to still run queries against your Router
